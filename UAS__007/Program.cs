@@ -194,7 +194,7 @@ namespace UAS__007
                                 if (obj.delNode(rollNo) == false)
                                     Console.WriteLine("Tidak Ketemu");
                                 else
-                                    Console.WriteLine("Data" + rollNo + "sudah terhapus \n");
+                                    Console.WriteLine("Id " + rollNo + " sudah terhapus \n");
 
                             }
                             break;
@@ -212,7 +212,7 @@ namespace UAS__007
                             {
                                 if (obj.listEmpty() == true)
                                 {
-                                    Console.WriteLine("\n List is empty");
+                                    Console.WriteLine("\n Belum kau isi Bambhank");
                                     break;
                                 }
                                 Node prev, curr;
@@ -252,7 +252,7 @@ namespace UAS__007
 ///3. Front dan Rear
 ///4. kalau array itu seperti sel sel menyamping, dan linked itu menurun kebawah
 ///5. a. siblingnya yaitu 5. 12, 16, 18,25, 28, 30,32
-///   b. Inorder yaitu Data tsb dimulai dari sebelah prorioritas kiri dulu lalu dilanjuti dengan data disebelah kanan dari induk itu sendiri
+///   b. Inorder yaitu Data tsb dimulai dari sebelah prorioritas kiri dulu lalu dilanjutkan dengan data disebelah kanan dari induk itu sendiri
 
 
 
